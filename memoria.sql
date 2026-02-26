@@ -1,1 +1,1 @@
-CREATE TABLE egipto (id INT PRIMARY KEY, conocimiento TEXT, fecha TIMESTAMP);
+CREATE TABLE GITHUB (id INT PRIMARY KEY, conocimiento TEXT, fecha TIMESTAMP);
