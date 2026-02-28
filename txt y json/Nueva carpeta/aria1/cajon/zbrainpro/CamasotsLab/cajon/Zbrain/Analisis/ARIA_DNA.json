@@ -1,0 +1,16 @@
+﻿{
+    "ID":  "Aria_Zbrain_Core",
+    "QLC_Version_Target":  "5.x_Bridge_Ready",
+    "Hardware":  {
+                     "Universo":  4,
+                     "Latency":  "1ms",
+                     "Interface":  "FTDI_D2XX"
+                 },
+    "Fixtures":  [
+                     "fzbeam",
+                     "fzwash",
+                     "fzspyder"
+                 ],
+    "Status":  "CONSOLIDATED",
+    "Project":  "GGDJ_20_Fixtures"
+}

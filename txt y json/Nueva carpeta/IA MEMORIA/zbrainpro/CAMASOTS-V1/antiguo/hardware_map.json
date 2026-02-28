@@ -1,0 +1,5 @@
+﻿[
+    {"id": "F_8OJO", "name": "Foco 8 Ojos", "type": "DMX", "ch_count": 8},
+    {"id": "CM_230", "name": "Cabeza Movil 230W", "type": "DMX", "ch_count": 16},
+    {"id": "LASER_ZB", "name": "Zbaitu FF80-EAIR", "control": "GRBL/G-Code"}
+]

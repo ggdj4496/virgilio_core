@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.13.1</Version>
+  <Author>GGDJ</Author>
+ </Creator>
+ <Manufacturer>GGDJ NANDO</Manufacturer>
+ <Model>19 LED WASH MH</Model>
+ <Type>Moving Head</Type>
+ <Channel Name="PAN" Preset="PositionPan"/>
+ <Channel Name="TILT" Preset="PositionTilt"/>
+ <Channel Name="P/T SPEED" Preset="SpeedPanTiltSlowFast"/>
+ <Channel Name="M DIM" Preset="IntensityMasterDimmer"/>
+ <Channel Name="RED G1" Preset="IntensityRed"/>
+ <Channel Name="GREEN G1" Preset="IntensityGreen"/>
+ <Channel Name="BLUE G1" Preset="IntensityBlue"/>
+ <Channel Name="WHITE G1" Preset="IntensityWhite"/>
+ <Channel Name="SHUT" Preset="ShutterStrobeSlowFast"/>
+ <Channel Name="FOCUS" Preset="BeamFocusNearFar"/>
+ <Channel Name="FUNCT">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255">FUNCT (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="FUNCT MODE SPEED">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="PAN FINE" Preset="PositionPanFine"/>
+ <Channel Name="TILT FINE" Preset="PositionTiltFine"/>
+ <Channel Name="RESET">
+  <Group Byte="0">Maintenance</Group>
+ </Channel>
+ <Channel Name="CTO">
+  <Group Byte="0">Maintenance</Group>
+ </Channel>
+ <Channel Name="RED G2" Preset="IntensityRed"/>
+ <Channel Name="GREEN G2" Preset="IntensityGreen"/>
+ <Channel Name="GREEN G3" Preset="IntensityGreen"/>
+ <Channel Name="RED G3" Preset="IntensityRed"/>
+ <Channel Name="BLUE G2" Preset="IntensityBlue"/>
+ <Channel Name="BLUE G3" Preset="IntensityBlue"/>
+ <Channel Name="WHITE G2" Preset="IntensityWhite"/>
+ <Channel Name="WHITE G3" Preset="IntensityWhite"/>
+ <Mode Name="16CH">
+  <Channel Number="0" ActsOn="0">PAN</Channel>
+  <Channel Number="1" ActsOn="1">TILT</Channel>
+  <Channel Number="2" ActsOn="2">P/T SPEED</Channel>
+  <Channel Number="3" ActsOn="3">M DIM</Channel>
+  <Channel Number="4" ActsOn="4">RED G1</Channel>
+  <Channel Number="5" ActsOn="5">GREEN G1</Channel>
+  <Channel Number="6" ActsOn="6">BLUE G1</Channel>
+  <Channel Number="7" ActsOn="7">WHITE G1</Channel>
+  <Channel Number="8" ActsOn="8">SHUT</Channel>
+  <Channel Number="9" ActsOn="9">FOCUS</Channel>
+  <Channel Number="10" ActsOn="10">FUNCT</Channel>
+  <Channel Number="11" ActsOn="11">FUNCT MODE SPEED</Channel>
+  <Channel Number="12" ActsOn="12">PAN FINE</Channel>
+  <Channel Number="13" ActsOn="13">TILT FINE</Channel>
+  <Channel Number="14" ActsOn="14">RESET</Channel>
+  <Channel Number="15" ActsOn="15">CTO</Channel>
+  <Head>
+   <Channel>0</Channel>
+   <Channel>1</Channel>
+   <Channel>2</Channel>
+   <Channel>3</Channel>
+   <Channel>4</Channel>
+   <Channel>5</Channel>
+   <Channel>6</Channel>
+   <Channel>7</Channel>
+   <Channel>8</Channel>
+   <Channel>9</Channel>
+   <Channel>10</Channel>
+   <Channel>12</Channel>
+   <Channel>11</Channel>
+   <Channel>13</Channel>
+   <Channel>14</Channel>
+   <Channel>15</Channel>
+  </Head>
+ </Mode>
+ <Mode Name="24CH">
+  <Channel Number="0" ActsOn="0">PAN</Channel>
+  <Channel Number="1" ActsOn="1">TILT</Channel>
+  <Channel Number="2" ActsOn="2">P/T SPEED</Channel>
+  <Channel Number="3" ActsOn="3">M DIM</Channel>
+  <Channel Number="4" ActsOn="4">RED G1</Channel>
+  <Channel Number="5" ActsOn="5">GREEN G1</Channel>
+  <Channel Number="6" ActsOn="6">BLUE G1</Channel>
+  <Channel Number="7" ActsOn="7">WHITE G1</Channel>
+  <Channel Number="8" ActsOn="8">RED G2</Channel>
+  <Channel Number="9" ActsOn="9">GREEN G2</Channel>
+  <Channel Number="10" ActsOn="10">BLUE G2</Channel>
+  <Channel Number="11" ActsOn="11">WHITE G2</Channel>
+  <Channel Number="12" ActsOn="12">RED G3</Channel>
+  <Channel Number="13" ActsOn="13">GREEN G3</Channel>
+  <Channel Number="14" ActsOn="14">BLUE G3</Channel>
+  <Channel Number="15" ActsOn="15">WHITE G3</Channel>
+  <Channel Number="16" ActsOn="16">SHUT</Channel>
+  <Channel Number="17" ActsOn="17">FOCUS</Channel>
+  <Channel Number="18" ActsOn="18">FUNCT</Channel>
+  <Channel Number="19" ActsOn="19">FUNCT MODE SPEED</Channel>
+  <Channel Number="20" ActsOn="20">PAN FINE</Channel>
+  <Channel Number="21" ActsOn="21">TILT FINE</Channel>
+  <Channel Number="22" ActsOn="22">RESET</Channel>
+  <Channel Number="23" ActsOn="23">CTO</Channel>
+  <Head>
+   <Channel>0</Channel>
+   <Channel>1</Channel>
+   <Channel>2</Channel>
+   <Channel>3</Channel>
+   <Channel>4</Channel>
+   <Channel>5</Channel>
+   <Channel>6</Channel>
+   <Channel>7</Channel>
+   <Channel>8</Channel>
+   <Channel>9</Channel>
+   <Channel>10</Channel>
+   <Channel>12</Channel>
+   <Channel>11</Channel>
+   <Channel>13</Channel>
+   <Channel>14</Channel>
+   <Channel>15</Channel>
+  </Head>
+ </Mode>
+ <Physical>
+  <Bulb Type="LED" Lumens="2000" ColourTemperature="8500"/>
+  <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+  <Lens Name="PC" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Head" PanMax="540" TiltMax="185"/>
+  <Technical PowerConsumption="300" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>

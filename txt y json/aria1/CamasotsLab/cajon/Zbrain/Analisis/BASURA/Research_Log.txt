@@ -1,0 +1,1 @@
+[LOG]: Permisos de nivel Kernel establecidos por el usuario. 

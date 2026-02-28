@@ -1,0 +1,7 @@
+﻿ID: DANTE_A_CORE
+ESPECIFICACIÓN: Ingeniero de Sistemas y Luminotecnia.
+CONOCIMIENTO ACTUAL:
+- Control de QLC+ (Archivos: bahiamar.qxw, GGDJ-NANDO).
+- Análisis de 6 manuales de Spider Jet ( AliExpress 8L).
+- Calibración de láser y webcam 110º.
+TAREA PENDIENTE: Unificar perfiles de Spider y crear Fixture de 40CH.

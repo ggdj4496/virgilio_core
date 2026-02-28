@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.6</Version>
+  <Author>FeiYu</Author>
+ </Creator>
+ <Manufacturer>shehds</Manufacturer>
+ <Model>BMH0812D-38CH</Model>
+ <Type>Dimmer</Type>
+ <Channel Name="Tilt" Preset="PositionTilt"/>
+ <Channel Name="Tilt speed" Preset="SpeedTiltSlowFast"/>
+ <Channel Name="Auto mode">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="10">Auto mode 1</Capability>
+  <Capability Min="11" Max="20">Auto mode 2</Capability>
+  <Capability Min="21" Max="31">Auto mode 3</Capability>
+  <Capability Min="32" Max="42">Auto mode 4</Capability>
+  <Capability Min="43" Max="53">Auto mode 5</Capability>
+  <Capability Min="54" Max="64">Auto mode 6</Capability>
+  <Capability Min="65" Max="75">Auto mode 7</Capability>
+  <Capability Min="76" Max="86">Auto mode 8</Capability>
+  <Capability Min="87" Max="97">Auto mode 9</Capability>
+  <Capability Min="98" Max="108">Auto mode 10</Capability>
+  <Capability Min="109" Max="119">Auto mode 11</Capability>
+  <Capability Min="120" Max="130">Auto mode 12</Capability>
+  <Capability Min="131" Max="141">Auto mode 13</Capability>
+  <Capability Min="142" Max="152">Auto mode 14</Capability>
+  <Capability Min="153" Max="163">Auto mode 15</Capability>
+  <Capability Min="164" Max="174">Auto mode 16</Capability>
+  <Capability Min="175" Max="185">Auto mode 17</Capability>
+  <Capability Min="186" Max="196">Auto mode 18</Capability>
+  <Capability Min="197" Max="207">Auto mode 19</Capability>
+  <Capability Min="208" Max="218">Auto mode 20</Capability>
+  <Capability Min="219" Max="229">Auto mode 21</Capability>
+  <Capability Min="230" Max="240">Auto mode 22</Capability>
+  <Capability Min="241" Max="250">Auto mode 23</Capability>
+  <Capability Min="251" Max="255">Sound mode </Capability>
+ </Channel>
+ <Channel Name="Auto mode speed">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="255">Auto mode speed</Capability>
+ </Channel>
+ <Channel Name="Master dimmer" Preset="IntensityMasterDimmer"/>
+ <Channel Name="Strobe" Preset="ShutterStrobeSlowFast"/>
+ <Channel Name="Red" Preset="IntensityRed"/>
+ <Channel Name="Green" Preset="IntensityGreen"/>
+ <Channel Name="Blue" Preset="IntensityBlue"/>
+ <Channel Name="White" Preset="IntensityWhite"/>
+ <Physical>
+  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Head" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="100" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>

@@ -1,0 +1,7 @@
+﻿telebot
+torch
+diffusers
+transformers
+accelerate
+pillow
+opencv-python

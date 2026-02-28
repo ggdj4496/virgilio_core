@@ -1,0 +1,10 @@
+﻿--- LOG DE INVESTIGACIÓN ARIA - 5 HORAS DE DESARROLLO ---
+ESTADO: Consolidado.
+LO QUE FALLÓ: 
+- Puentes de texto simples (bridge_cmd.txt) sin permisos de ejecución elevados.
+- Scripts de PowerShell bloqueados por Session Isolation de Windows.
+LO QUE FUNCIONÓ:
+- Modificación del Registro (HKCU:\Software\Classes\aria) para crear un protocolo nativo.
+- Interfaz HTA (ARIA_App) para bypass de seguridad y control visual.
+- Watchdog para persistencia del proceso.
+PRÓXIMOS PASOS: Control total de periféricos y automatización del laboratorio.
