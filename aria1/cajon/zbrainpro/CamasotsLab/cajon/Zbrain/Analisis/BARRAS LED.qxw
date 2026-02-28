@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FixtureManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.13.1</Version>
+  <Author>X</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <BeatGenerator BeatType="Disabled" BPM="0"/>
+   <Universe Name="Universe 1" ID="0">
+    <Input Plugin="MIDI" UID="None" Line="2" Profile="GGDJ MVAVE SMC  GGDJ CC MODE SMC MVAVE MIXER 8FADERS"/>
+   </Universe>
+   <Universe Name="Universe 2" ID="1"/>
+   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="Universe 4" ID="3"/>
+   <Universe Name="Universe 5" ID="4">
+    <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: A50285BI)" Line="0">
+     <PluginParameters UniverseChannels="118"/>
+    </Output>
+   </Universe>
+   <Universe Name="Universe 6" ID="5"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>sheds</Manufacturer>
+   <Model>she bmh0812d</Model>
+   <Mode>9ch</Mode>
+   <ID>0</ID>
+   <Name>barra led 1</Name>
+   <Universe>4</Universe>
+   <Address>4</Address>
+   <Channels>9</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>sheds</Manufacturer>
+   <Model>she bmh0812d</Model>
+   <Mode>9ch</Mode>
+   <ID>1</ID>
+   <Name>barra led 2</Name>
+   <Universe>4</Universe>
+   <Address>13</Address>
+   <Channels>9</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GGDJ NANDO BEAMS 7R</Manufacturer>
+   <Model>GGDJ NANDO BEAMS 7R</Model>
+   <Mode>16-channel</Mode>
+   <ID>7</ID>
+   <Name>GGDJ NANDO BEAMS 7R #1</Name>
+   <Universe>4</Universe>
+   <Address>22</Address>
+   <Channels>16</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GGDJ NANDO BEAMS 7R</Manufacturer>
+   <Model>GGDJ NANDO BEAMS 7R</Model>
+   <Mode>16-channel</Mode>
+   <ID>8</ID>
+   <Name>GGDJ NANDO BEAMS 7R #2</Name>
+   <Universe>4</Universe>
+   <Address>38</Address>
+   <Channels>16</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GGDJ NANDO BEAMS 7R</Manufacturer>
+   <Model>GGDJ NANDO BEAMS 7R</Model>
+   <Mode>16-channel</Mode>
+   <ID>9</ID>
+   <Name>GGDJ NANDO BEAMS 7R #3</Name>
+   <Universe>4</Universe>
+   <Address>54</Address>
+   <Channels>16</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GGDJ NANDO BEAMS 7R</Manufacturer>
+   <Model>GGDJ NANDO BEAMS 7R</Model>
+   <Mode>16-channel</Mode>
+   <ID>10</ID>
+   <Name>GGDJ NANDO BEAMS 7R #4</Name>
+   <Universe>4</Universe>
+   <Address>70</Address>
+   <Channels>16</Channels>
+  </Fixture>
+  <FixtureGroup ID="0">
+   <Name>aerobeam</Name>
+   <Size X="2" Y="2"/>
+   <Head X="0" Y="0" Fixture="0">0</Head>
+   <Head X="1" Y="0" Fixture="1">0</Head>
+  </FixtureGroup>
+  <Function ID="0" Type="Scene" Name="she bmh0812d - Color - Escena roja">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,255</FixtureVal>
+  </Function>
+  <Function ID="1" Type="Scene" Name="she bmh0812d - Color - Escena verde">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">6,255</FixtureVal>
+  </Function>
+  <Function ID="2" Type="Scene" Name="she bmh0812d - Color - Escena azul">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">7,255</FixtureVal>
+  </Function>
+  <Function ID="3" Type="Scene" Name="she bmh0812d - Color - Escena blanca">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,255</FixtureVal>
+  </Function>
+  <Function ID="4" Type="Chaser" Name="Chaser de Colores primarios - she bmh0812d">
+   <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">0</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">1</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">2</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">3</Step>
+  </Function>
+  <Function ID="5" Type="Scene" Name="she bmh0812d - Negro - Escena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,0,6,0,7,0</FixtureVal>
+  </Function>
+  <Function ID="6" Type="Scene" Name="she bmh0812d - Azul Oscuro - Escena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,0,6,0,7,128</FixtureVal>
+  </Function>
+  <Function ID="7" Type="Scene" Name="she bmh0812d - Azul - Escena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,0,6,0,7,255</FixtureVal>
+  </Function>
+  <Function ID="8" Type="Scene" Name="she bmh0812d - Verde Oscuro - Escena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,0,6,128,7,0</FixtureVal>
+  </Function>
+  <Function ID="9" Type="Scene" Name="she bmh0812d - Cyan Oscuro - Escena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,0,6,128,7,128</FixtureVal>
+  </Function>
+  <Function ID="10" Type="Scene" Name="she bmh0812d - Verde - Escena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,0,6,255,7,0</FixtureVal>
+  </Function>
+  <Function ID="11" Type="Scene" Name="she bmh0812d - Cyan - Escena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,0,6,255,7,255</FixtureVal>
+  </Function>
+  <Function ID="12" Type="Scene" Name="she bmh0812d - Rojo Oscuro - Escena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,128,6,0,7,0</FixtureVal>
+  </Function>
+  <Function ID="13" Type="Scene" Name="she bmh0812d - Magenta Oscuro - Escena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,128,6,0,7,128</FixtureVal>
+  </Function>
+  <Function ID="14" Type="Scene" Name="she bmh0812d - Amarillo Oscuro - Escena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,128,6,128,7,0</FixtureVal>
+  </Function>
+  <Function ID="15" Type="Scene" Name="she bmh0812d - Gris Oscuro - Escena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,128,6,128,7,128</FixtureVal>
+  </Function>
+  <Function ID="16" Type="Scene" Name="she bmh0812d - Gris Claro - Escena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,192,6,192,7,192</FixtureVal>
+  </Function>
+  <Function ID="17" Type="Scene" Name="she bmh0812d - Rojo - Escena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,255,6,0,7,0</FixtureVal>
+  </Function>
+  <Function ID="18" Type="Scene" Name="she bmh0812d - Magenta - Escena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,255,6,0,7,255</FixtureVal>
+  </Function>
+  <Function ID="19" Type="Scene" Name="she bmh0812d - Amarillo - Escena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,255,6,255,7,0</FixtureVal>
+  </Function>
+  <Function ID="20" Type="Scene" Name="she bmh0812d - Blanco - Escena">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,255,6,255,7,255</FixtureVal>
+  </Function>
+  <Function ID="21" Type="Chaser" Name="Chaser de 16 Colores - she bmh0812d">
+   <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">5</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">6</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">7</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">8</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">9</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">10</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">11</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">12</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">13</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">14</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">15</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">16</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">17</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">18</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">19</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">20</Step>
+  </Function>
+  <Function ID="22" Type="EFX" Name="Nuevo EFX 22">
+   <Fixture>
+    <ID>0</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="1291" FadeOut="790" Duration="20043"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>127</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="23" Type="EFX" Name="Nuevo EFX 23">
+   <Fixture>
+    <ID>0</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>127</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="24" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="25" Type="Sequence" Name="Nueva Secuencia 25" BoundScene="24">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+  </Function>
+  <Function ID="26" Type="RGBMatrix" Name="Nueva Matriz RGB 26">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Stripes</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4294967295</FixtureGroup>
+  </Function>
+  <Monitor DisplayMode="0" ShowLabels="0">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>1</ValueStyle>
+   <Grid Width="5" Height="3" Depth="5" Units="0"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <SoloFrame Caption="Animaciones - she bmh0812d" ID="28">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="1330" Y="10" Width="100" Height="50"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+   </SoloFrame>
+   <Frame Caption="" ID="31">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="0" Y="0" Width="665" Height="290"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+   </Frame>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>

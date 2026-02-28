@@ -1,0 +1,1363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.13.1</Version>
+  <Author>X</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <BeatGenerator BeatType="Disabled" BPM="0"/>
+   <Universe Name="Universe 1" ID="0">
+    <Output Plugin="DMX USB" UID="None" Line="0"/>
+   </Universe>
+   <Universe Name="Universe 2" ID="1"/>
+   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="Universe 4" ID="3"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>QUARC 4 CH DIM GUILL DJ</Manufacturer>
+   <Model>GUILL DJ QUARK PRO 4CH DIM</Model>
+   <Mode>QUARK PRO DIM 4CH</Mode>
+   <ID>0</ID>
+   <Name>RECORTES  4CH DIM</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>JB Systems</Manufacturer>
+   <Model>Plano Spot 7TC</Model>
+   <Mode>Mode 1</Mode>
+   <ID>1</ID>
+   <Name>Plano Spot SUELO #1</Name>
+   <Universe>0</Universe>
+   <Address>4</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>JB Systems</Manufacturer>
+   <Model>Plano Spot 7TC</Model>
+   <Mode>Mode 1</Mode>
+   <ID>2</ID>
+   <Name>Plano Spot SUELO #2</Name>
+   <Universe>0</Universe>
+   <Address>8</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>JB Systems</Manufacturer>
+   <Model>Plano Spot 7TC</Model>
+   <Mode>Mode 1</Mode>
+   <ID>3</ID>
+   <Name>Plano Spot SUELO #3</Name>
+   <Universe>0</Universe>
+   <Address>12</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>JB Systems</Manufacturer>
+   <Model>Plano Spot 7TC</Model>
+   <Mode>Mode 1</Mode>
+   <ID>4</ID>
+   <Name>Plano Spot SUELO #4</Name>
+   <Universe>0</Universe>
+   <Address>16</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Shehds</Manufacturer>
+   <Model>LED Flat Par 7x18W RGBWA+UV</Model>
+   <Mode>10 Channel</Mode>
+   <ID>5</ID>
+   <Name>Par 7x18W RGBWA+UV #1</Name>
+   <Universe>0</Universe>
+   <Address>20</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Shehds</Manufacturer>
+   <Model>LED Flat Par 7x18W RGBWA+UV</Model>
+   <Mode>10 Channel</Mode>
+   <ID>6</ID>
+   <Name>Par 7x18W RGBWA+UV #2</Name>
+   <Universe>0</Universe>
+   <Address>30</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Shehds</Manufacturer>
+   <Model>LED Flat Par 7x18W RGBWA+UV</Model>
+   <Mode>10 Channel</Mode>
+   <ID>7</ID>
+   <Name>Par 7x18W RGBWA+UV #3</Name>
+   <Universe>0</Universe>
+   <Address>40</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Shehds</Manufacturer>
+   <Model>LED Flat Par 7x18W RGBWA+UV</Model>
+   <Mode>10 Channel</Mode>
+   <ID>8</ID>
+   <Name>Par 7x18W RGBWA+UV #4</Name>
+   <Universe>0</Universe>
+   <Address>50</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Shehds</Manufacturer>
+   <Model>LED Flat Par 7x18W RGBWA+UV</Model>
+   <Mode>10 Channel</Mode>
+   <ID>9</ID>
+   <Name>Par 7x18W RGBWA+UV #5</Name>
+   <Universe>0</Universe>
+   <Address>60</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Shehds</Manufacturer>
+   <Model>LED Flat Par 7x18W RGBWA+UV</Model>
+   <Mode>10 Channel</Mode>
+   <ID>10</ID>
+   <Name>Par 7x18W RGBWA+UV #6</Name>
+   <Universe>0</Universe>
+   <Address>70</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Shehds</Manufacturer>
+   <Model>LED Flat Par 7x18W RGBWA+UV</Model>
+   <Mode>10 Channel</Mode>
+   <ID>11</ID>
+   <Name>Par 7x18W RGBWA+UV #7</Name>
+   <Universe>0</Universe>
+   <Address>80</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Shehds</Manufacturer>
+   <Model>LED Flat Par 7x18W RGBWA+UV</Model>
+   <Mode>10 Channel</Mode>
+   <ID>12</ID>
+   <Name>Par 7x18W RGBWA+UV #8</Name>
+   <Universe>0</Universe>
+   <Address>90</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>YUER 150w cabezas BEAM</Manufacturer>
+   <Model>YUER150W BEAM</Model>
+   <Mode>FULL 12 CH</Mode>
+   <ID>13</ID>
+   <Name>YUER150W BEAM #1</Name>
+   <Universe>0</Universe>
+   <Address>100</Address>
+   <Channels>12</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>YUER 150w cabezas BEAM</Manufacturer>
+   <Model>YUER150W BEAM</Model>
+   <Mode>FULL 12 CH</Mode>
+   <ID>14</ID>
+   <Name>YUER150W BEAM #2</Name>
+   <Universe>0</Universe>
+   <Address>112</Address>
+   <Channels>12</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>YUER 150w cabezas BEAM</Manufacturer>
+   <Model>YUER150W BEAM</Model>
+   <Mode>FULL 12 CH</Mode>
+   <ID>15</ID>
+   <Name>YUER150W BEAM #3</Name>
+   <Universe>0</Universe>
+   <Address>124</Address>
+   <Channels>12</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>YUER 150w cabezas BEAM</Manufacturer>
+   <Model>YUER150W BEAM</Model>
+   <Mode>FULL 12 CH</Mode>
+   <ID>16</ID>
+   <Name>YUER150W BEAM #4</Name>
+   <Universe>0</Universe>
+   <Address>136</Address>
+   <Channels>12</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>YUER 150w cabezas BEAM</Manufacturer>
+   <Model>YUER150W BEAM</Model>
+   <Mode>FULL 12 CH</Mode>
+   <ID>17</ID>
+   <Name>YUER150W BEAM #5</Name>
+   <Universe>0</Universe>
+   <Address>148</Address>
+   <Channels>12</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>YUER 150w cabezas BEAM</Manufacturer>
+   <Model>YUER150W BEAM</Model>
+   <Mode>FULL 12 CH</Mode>
+   <ID>18</ID>
+   <Name>YUER150W BEAM #6</Name>
+   <Universe>0</Universe>
+   <Address>160</Address>
+   <Channels>12</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>YUER 150w cabezas BEAM</Manufacturer>
+   <Model>YUER150W BEAM</Model>
+   <Mode>FULL 12 CH</Mode>
+   <ID>19</ID>
+   <Name>YUER150W BEAM #7</Name>
+   <Universe>0</Universe>
+   <Address>172</Address>
+   <Channels>12</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>YUER 150w cabezas BEAM</Manufacturer>
+   <Model>YUER150W BEAM</Model>
+   <Mode>FULL 12 CH</Mode>
+   <ID>20</ID>
+   <Name>YUER150W BEAM #8</Name>
+   <Universe>0</Universe>
+   <Address>184</Address>
+   <Channels>12</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Shehds</Manufacturer>
+   <Model>LED Flat Par 7x18W RGBWA+UV</Model>
+   <Mode>10 Channel</Mode>
+   <ID>21</ID>
+   <Name>COLUMNAS DESCONOCIDO LED Par #1</Name>
+   <Universe>0</Universe>
+   <Address>196</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Shehds</Manufacturer>
+   <Model>LED Flat Par 7x18W RGBWA+UV</Model>
+   <Mode>10 Channel</Mode>
+   <ID>22</ID>
+   <Name>COLUMNAS DESCONOCIDO LED Par #2</Name>
+   <Universe>0</Universe>
+   <Address>206</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Shehds</Manufacturer>
+   <Model>LED Flat Par 7x18W RGBWA+UV</Model>
+   <Mode>10 Channel</Mode>
+   <ID>23</ID>
+   <Name>COLUMNAS DESCONOCIDO LED Par #3</Name>
+   <Universe>0</Universe>
+   <Address>216</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Shehds</Manufacturer>
+   <Model>LED Flat Par 7x18W RGBWA+UV</Model>
+   <Mode>10 Channel</Mode>
+   <ID>24</ID>
+   <Name>COLUMNAS DESCONOCIDO LED Par #4</Name>
+   <Universe>0</Universe>
+   <Address>226</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Shehds</Manufacturer>
+   <Model>LED Flat Par 7x18W RGBWA+UV</Model>
+   <Mode>10 Channel</Mode>
+   <ID>25</ID>
+   <Name>COLUMNAS DESCONOCIDO LED Par #5</Name>
+   <Universe>0</Universe>
+   <Address>236</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Shehds</Manufacturer>
+   <Model>LED Flat Par 7x18W RGBWA+UV</Model>
+   <Mode>10 Channel</Mode>
+   <ID>26</ID>
+   <Name>COLUMNAS DESCONOCIDO LED Par #6</Name>
+   <Universe>0</Universe>
+   <Address>246</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Shehds</Manufacturer>
+   <Model>LED Flat Par 7x18W RGBWA+UV</Model>
+   <Mode>10 Channel</Mode>
+   <ID>27</ID>
+   <Name>COLUMNAS DESCONOCIDO LED Par #7</Name>
+   <Universe>0</Universe>
+   <Address>256</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Shehds</Manufacturer>
+   <Model>LED Flat Par 7x18W RGBWA+UV</Model>
+   <Mode>10 Channel</Mode>
+   <ID>28</ID>
+   <Name>COLUMNAS DESCONOCIDO LED Par #8</Name>
+   <Universe>0</Universe>
+   <Address>266</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic Smoke</Model>
+   <Mode>Normal</Mode>
+   <ID>29</ID>
+   <Name>HUMO STANDARD</Name>
+   <Universe>0</Universe>
+   <Address>276</Address>
+   <Channels>2</Channels>
+  </Fixture>
+  <FixtureGroup ID="0">
+   <Name>COLUMNAS</Name>
+   <Size X="3" Y="3"/>
+   <Head X="0" Y="0" Fixture="21">0</Head>
+   <Head X="1" Y="0" Fixture="22">0</Head>
+   <Head X="2" Y="0" Fixture="23">0</Head>
+   <Head X="0" Y="1" Fixture="24">0</Head>
+   <Head X="1" Y="1" Fixture="25">0</Head>
+   <Head X="2" Y="1" Fixture="26">0</Head>
+   <Head X="0" Y="2" Fixture="27">0</Head>
+   <Head X="1" Y="2" Fixture="28">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="1">
+   <Name>SUELOFONDO  ESCENARIO</Name>
+   <Size X="2" Y="2"/>
+   <Head X="0" Y="0" Fixture="1">0</Head>
+   <Head X="1" Y="0" Fixture="2">0</Head>
+   <Head X="0" Y="1" Fixture="3">0</Head>
+   <Head X="1" Y="1" Fixture="4">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="2">
+   <Name>ESCENARIO TRUSS</Name>
+   <Size X="4" Y="4"/>
+   <Head X="0" Y="0" Fixture="5">0</Head>
+   <Head X="1" Y="0" Fixture="6">0</Head>
+   <Head X="2" Y="0" Fixture="7">0</Head>
+   <Head X="3" Y="0" Fixture="8">0</Head>
+   <Head X="0" Y="1" Fixture="9">0</Head>
+   <Head X="1" Y="1" Fixture="10">0</Head>
+   <Head X="2" Y="1" Fixture="11">0</Head>
+   <Head X="3" Y="1" Fixture="12">0</Head>
+   <Head X="0" Y="2" Fixture="13">0</Head>
+   <Head X="1" Y="2" Fixture="14">0</Head>
+   <Head X="2" Y="2" Fixture="15">0</Head>
+   <Head X="3" Y="2" Fixture="16">0</Head>
+   <Head X="0" Y="3" Fixture="17">0</Head>
+   <Head X="1" Y="3" Fixture="18">0</Head>
+   <Head X="2" Y="3" Fixture="19">0</Head>
+   <Head X="3" Y="3" Fixture="20">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="3">
+   <Name>LED Flat Par 7x18W RGBWA+UV -  Grupo RGB</Name>
+   <Size X="8" Y="1"/>
+   <Head X="0" Y="0" Fixture="5">0</Head>
+   <Head X="1" Y="0" Fixture="6">0</Head>
+   <Head X="2" Y="0" Fixture="7">0</Head>
+   <Head X="3" Y="0" Fixture="8">0</Head>
+   <Head X="4" Y="0" Fixture="9">0</Head>
+   <Head X="5" Y="0" Fixture="10">0</Head>
+   <Head X="6" Y="0" Fixture="11">0</Head>
+   <Head X="7" Y="0" Fixture="12">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="4">
+   <Name>LED Flat Par 7x18W RGBWA+UV -  Grupo RGB</Name>
+   <Size X="8" Y="1"/>
+   <Head X="0" Y="0" Fixture="21">0</Head>
+   <Head X="1" Y="0" Fixture="22">0</Head>
+   <Head X="2" Y="0" Fixture="23">0</Head>
+   <Head X="3" Y="0" Fixture="24">0</Head>
+   <Head X="4" Y="0" Fixture="25">0</Head>
+   <Head X="5" Y="0" Fixture="26">0</Head>
+   <Head X="6" Y="0" Fixture="27">0</Head>
+   <Head X="7" Y="0" Fixture="28">0</Head>
+  </FixtureGroup>
+  <Function ID="102" Type="Scene" Name="ROJO" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,255,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="22">1,255,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="23">1,255,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="24">1,255,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="25">1,255,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="26">1,255,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="27">1,255,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="28">1,255,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="104" Type="Chaser" Name="Chaser de Colores primarios - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">102</Step>
+  </Function>
+  <Function ID="105" Type="Scene" Name="BLACKOUT COLUMNAS" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">0,0,1,0,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="22">0,0,1,0,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="23">0,0,1,0,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="24">0,0,1,0,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="25">0,0,1,0,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="26">0,0,1,0,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="27">0,0,1,0,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="28">0,0,1,0,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="107" Type="Scene" Name="AZUL " Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="22">1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="23">1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="24">1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="25">1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="26">1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="27">1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="28">1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="110" Type="Scene" Name="VERDE" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,0,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="22">1,0,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="23">1,0,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="24">1,0,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="25">1,0,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="26">1,0,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="27">1,0,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="28">1,0,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="117" Type="Scene" Name="AMBAR" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="22">1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="23">1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="24">1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="25">1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="26">1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="27">1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="28">1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+  </Function>
+  <Function ID="119" Type="Scene" Name="AMARILLO" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,255,2,255,3,0,4,107,5,107,6,0</FixtureVal>
+   <FixtureVal ID="22">1,255,2,255,3,0,4,107,5,107,6,0</FixtureVal>
+   <FixtureVal ID="23">1,255,2,255,3,0,4,107,5,107,6,0</FixtureVal>
+   <FixtureVal ID="24">1,255,2,255,3,0,4,107,5,107,6,0</FixtureVal>
+   <FixtureVal ID="25">1,255,2,255,3,0,4,107,5,107,6,0</FixtureVal>
+   <FixtureVal ID="26">1,255,2,255,3,0,4,107,5,107,6,0</FixtureVal>
+   <FixtureVal ID="27">1,255,2,255,3,0,4,107,5,107,6,0</FixtureVal>
+   <FixtureVal ID="28">1,255,2,255,3,0,4,107,5,107,6,0</FixtureVal>
+  </Function>
+  <Function ID="120" Type="Scene" Name="BLANCO WH" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,0,2,0,3,0,4,255,5,0,6,0</FixtureVal>
+   <FixtureVal ID="22">1,0,2,0,3,0,4,255,5,0,6,0</FixtureVal>
+   <FixtureVal ID="23">1,0,2,0,3,0,4,255,5,0,6,0</FixtureVal>
+   <FixtureVal ID="24">1,0,2,0,3,0,4,255,5,0,6,0</FixtureVal>
+   <FixtureVal ID="25">1,0,2,0,3,0,4,255,5,0,6,0</FixtureVal>
+   <FixtureVal ID="26">1,0,2,0,3,0,4,255,5,0,6,0</FixtureVal>
+   <FixtureVal ID="27">1,0,2,0,3,0,4,255,5,0,6,0</FixtureVal>
+   <FixtureVal ID="28">1,0,2,0,3,0,4,255,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="121" Type="Chaser" Name="Chaser de 16 Colores - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">105</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">107</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">110</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">117</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">119</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">120</Step>
+  </Function>
+  <Function ID="122" Type="RGBMatrix" Name="Animación Alternate - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Alternate</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="123" Type="RGBMatrix" Name="Animación Balls - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Balls</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="124" Type="RGBMatrix" Name="Animación Balls (Colors) - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Balls (Colors)</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="125" Type="RGBMatrix" Name="Animación Blinder - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Blinder</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="126" Type="RGBMatrix" Name="Animación Circles - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Circles</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="127" Type="RGBMatrix" Name="Animación Circular - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Circular</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="128" Type="RGBMatrix" Name="Animación Even/Odd - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Even/Odd</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="129" Type="RGBMatrix" Name="Animación Fill - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="130" Type="RGBMatrix" Name="Animación Fill From Center - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill From Center</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="131" Type="RGBMatrix" Name="Animación Fill Unfill - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill Unfill</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="132" Type="RGBMatrix" Name="Animación Fill Unfill From Center - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill Unfill From Center</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="133" Type="RGBMatrix" Name="Animación Fill Unfill Squares From Center - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Squares From Center</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="134" Type="RGBMatrix" Name="Animación Fireworks - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fireworks</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="135" Type="RGBMatrix" Name="Animación Flying Objects - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Flying Objects</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="136" Type="RGBMatrix" Name="Animación Gradient - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Gradient</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="137" Type="RGBMatrix" Name="Animación Lines - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Lines</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="138" Type="RGBMatrix" Name="Animación Marquee - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Marquee</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="139" Type="RGBMatrix" Name="Animación Noise - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Noise</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="140" Type="RGBMatrix" Name="Animación One By One - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">One By One</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="141" Type="RGBMatrix" Name="Animación Opposite - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Opposite</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="142" Type="RGBMatrix" Name="Animación Plasma - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Plasma</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="143" Type="RGBMatrix" Name="Animación Plasma (Colors) - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Plasma (Colors)</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="144" Type="RGBMatrix" Name="Animación Random Column - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Random Column</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="145" Type="RGBMatrix" Name="Animación Random Fill Column - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Random Fill Column</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="146" Type="RGBMatrix" Name="Animación Random Fill Row - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Random Fill Row</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="147" Type="RGBMatrix" Name="Animación Random Fill Single - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Random Fill Single</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="148" Type="RGBMatrix" Name="Animación Random Pixel Per Row - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Random Pixel Per Row</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="149" Type="RGBMatrix" Name="Animación Random Pixel Per Row Multicolor - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Random Pixel Per Row Multicolor</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="150" Type="RGBMatrix" Name="Animación Random Row - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Random Row</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="151" Type="RGBMatrix" Name="Animación Random Single - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Random Single</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="152" Type="RGBMatrix" Name="Animación Snow or Bubbles - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Snow or Bubbles</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="153" Type="RGBMatrix" Name="Animación Squares - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Squares</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="154" Type="RGBMatrix" Name="Animación Squares From Center - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Squares From Center</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="155" Type="RGBMatrix" Name="Animación 3D Starfield - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">3D Starfield</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+   <Property Name="StarsAmount" Value="50"/>
+  </Function>
+  <Function ID="156" Type="RGBMatrix" Name="Animación Stripes - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Stripes</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="157" Type="RGBMatrix" Name="Animación Stripes From Center - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Stripes From Center</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="158" Type="RGBMatrix" Name="Animación Strobe - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Strobe</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="159" Type="RGBMatrix" Name="Animación Vertical fall - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Vertical fall</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="160" Type="RGBMatrix" Name="Animación Waves - LED Flat Par 7x18W RGBWA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Waves</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+   <Property Name="taillength" Value="50"/>
+   <Property Name="tailfade" Value="Yes"/>
+  </Function>
+  <Function ID="161" Type="Scene" Name="BLANCO RGBWHA+UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,255,2,255,3,255,4,255,5,255,6,255</FixtureVal>
+   <FixtureVal ID="22">1,255,2,255,3,255,4,255,5,255,6,255</FixtureVal>
+   <FixtureVal ID="23">1,255,2,255,3,255,4,255,5,255,6,255</FixtureVal>
+   <FixtureVal ID="24">1,255,2,255,3,255,4,255,5,255,6,255</FixtureVal>
+   <FixtureVal ID="25">1,255,2,255,3,255,4,255,5,255,6,255</FixtureVal>
+   <FixtureVal ID="26">1,255,2,255,3,255,4,255,5,255,6,255</FixtureVal>
+   <FixtureVal ID="27">1,255,2,255,3,255,4,255,5,255,6,255</FixtureVal>
+   <FixtureVal ID="28">1,255,2,255,3,255,4,255,5,255,6,255</FixtureVal>
+  </Function>
+  <Function ID="162" Type="Scene" Name="BLANCO RGBWHA" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,255,2,255,3,255,4,255,5,255,6,0</FixtureVal>
+   <FixtureVal ID="22">1,255,2,255,3,255,4,255,5,255,6,0</FixtureVal>
+   <FixtureVal ID="23">1,255,2,255,3,255,4,255,5,255,6,0</FixtureVal>
+   <FixtureVal ID="24">1,255,2,255,3,255,4,255,5,255,6,0</FixtureVal>
+   <FixtureVal ID="25">1,255,2,255,3,255,4,255,5,255,6,0</FixtureVal>
+   <FixtureVal ID="26">1,255,2,255,3,255,4,255,5,255,6,0</FixtureVal>
+   <FixtureVal ID="27">1,255,2,255,3,255,4,255,5,255,6,0</FixtureVal>
+   <FixtureVal ID="28">1,255,2,255,3,255,4,255,5,255,6,0</FixtureVal>
+  </Function>
+  <Function ID="163" Type="Scene" Name="YUER150W BEAM - STROBo - strobe off" Path="CABEZAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="20">6,7</FixtureVal>
+   <FixtureVal ID="18">6,7</FixtureVal>
+   <FixtureVal ID="19">6,7</FixtureVal>
+   <FixtureVal ID="16">6,7</FixtureVal>
+   <FixtureVal ID="17">6,7</FixtureVal>
+   <FixtureVal ID="14">6,7</FixtureVal>
+   <FixtureVal ID="15">6,7</FixtureVal>
+   <FixtureVal ID="13">6,7</FixtureVal>
+  </Function>
+  <Function ID="164" Type="Scene" Name="YUER150W BEAM - STROBo - strobe on 0 -100 %" Path="CABEZAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="20">6,135</FixtureVal>
+   <FixtureVal ID="18">6,135</FixtureVal>
+   <FixtureVal ID="19">6,135</FixtureVal>
+   <FixtureVal ID="16">6,135</FixtureVal>
+   <FixtureVal ID="17">6,135</FixtureVal>
+   <FixtureVal ID="14">6,135</FixtureVal>
+   <FixtureVal ID="15">6,135</FixtureVal>
+   <FixtureVal ID="13">6,135</FixtureVal>
+  </Function>
+  <Function ID="165" Type="Chaser" Name="Chaser de Macros de Shutter - YUER150W BEAM" Path="CABEZAS">
+   <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">163</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">164</Step>
+  </Function>
+  <Function ID="166" Type="Scene" Name="YUER150W BEAM - White + 7 COLOR - WHITE" Path="CABEZAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="20">7,4</FixtureVal>
+   <FixtureVal ID="18">7,4</FixtureVal>
+   <FixtureVal ID="19">7,4</FixtureVal>
+   <FixtureVal ID="16">7,4</FixtureVal>
+   <FixtureVal ID="17">7,4</FixtureVal>
+   <FixtureVal ID="14">7,4</FixtureVal>
+   <FixtureVal ID="15">7,4</FixtureVal>
+   <FixtureVal ID="13">7,4</FixtureVal>
+  </Function>
+  <Function ID="167" Type="Scene" Name="YUER150W BEAM - White + 7 COLOR - COLOR 1 - 7" Path="CABEZAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="20">7,44</FixtureVal>
+   <FixtureVal ID="18">7,44</FixtureVal>
+   <FixtureVal ID="19">7,44</FixtureVal>
+   <FixtureVal ID="16">7,44</FixtureVal>
+   <FixtureVal ID="17">7,44</FixtureVal>
+   <FixtureVal ID="14">7,44</FixtureVal>
+   <FixtureVal ID="15">7,44</FixtureVal>
+   <FixtureVal ID="13">7,44</FixtureVal>
+  </Function>
+  <Function ID="168" Type="Scene" Name="YUER150W BEAM - White + 7 COLOR - HALF COLOR FX" Path="CABEZAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="20">7,109</FixtureVal>
+   <FixtureVal ID="18">7,109</FixtureVal>
+   <FixtureVal ID="19">7,109</FixtureVal>
+   <FixtureVal ID="16">7,109</FixtureVal>
+   <FixtureVal ID="17">7,109</FixtureVal>
+   <FixtureVal ID="14">7,109</FixtureVal>
+   <FixtureVal ID="15">7,109</FixtureVal>
+   <FixtureVal ID="13">7,109</FixtureVal>
+  </Function>
+  <Function ID="169" Type="Scene" Name="YUER150W BEAM - White + 7 COLOR - CWH ROTATE SLOW FAST" Path="CABEZAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="20">7,168</FixtureVal>
+   <FixtureVal ID="18">7,168</FixtureVal>
+   <FixtureVal ID="19">7,168</FixtureVal>
+   <FixtureVal ID="16">7,168</FixtureVal>
+   <FixtureVal ID="17">7,168</FixtureVal>
+   <FixtureVal ID="14">7,168</FixtureVal>
+   <FixtureVal ID="15">7,168</FixtureVal>
+   <FixtureVal ID="13">7,168</FixtureVal>
+  </Function>
+  <Function ID="170" Type="Chaser" Name="Chaser de Macros de Color - YUER150W BEAM" Path="CABEZAS">
+   <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">166</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">167</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">168</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">169</Step>
+  </Function>
+  <Function ID="171" Type="Scene" Name="YUER150W BEAM - GOBO WH - CIRCULAR GOBO" Path="CABEZAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="20">8,4</FixtureVal>
+   <FixtureVal ID="18">8,4</FixtureVal>
+   <FixtureVal ID="19">8,4</FixtureVal>
+   <FixtureVal ID="16">8,4</FixtureVal>
+   <FixtureVal ID="17">8,4</FixtureVal>
+   <FixtureVal ID="14">8,4</FixtureVal>
+   <FixtureVal ID="15">8,4</FixtureVal>
+   <FixtureVal ID="13">8,4</FixtureVal>
+  </Function>
+  <Function ID="172" Type="Scene" Name="YUER150W BEAM - GOBO WH - GOBO 1 - 7" Path="CABEZAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="20">8,44</FixtureVal>
+   <FixtureVal ID="18">8,44</FixtureVal>
+   <FixtureVal ID="19">8,44</FixtureVal>
+   <FixtureVal ID="16">8,44</FixtureVal>
+   <FixtureVal ID="17">8,44</FixtureVal>
+   <FixtureVal ID="14">8,44</FixtureVal>
+   <FixtureVal ID="15">8,44</FixtureVal>
+   <FixtureVal ID="13">8,44</FixtureVal>
+  </Function>
+  <Function ID="173" Type="Scene" Name="YUER150W BEAM - GOBO WH - GOBO JITTER SLOW TO FAST" Path="CABEZAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="20">8,114</FixtureVal>
+   <FixtureVal ID="18">8,114</FixtureVal>
+   <FixtureVal ID="19">8,114</FixtureVal>
+   <FixtureVal ID="16">8,114</FixtureVal>
+   <FixtureVal ID="17">8,114</FixtureVal>
+   <FixtureVal ID="14">8,114</FixtureVal>
+   <FixtureVal ID="15">8,114</FixtureVal>
+   <FixtureVal ID="13">8,114</FixtureVal>
+  </Function>
+  <Function ID="174" Type="Scene" Name="YUER150W BEAM - GOBO WH - CIRCULAR GOBO JITTER SLOW TO FAST" Path="CABEZAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="20">8,154</FixtureVal>
+   <FixtureVal ID="18">8,154</FixtureVal>
+   <FixtureVal ID="19">8,154</FixtureVal>
+   <FixtureVal ID="16">8,154</FixtureVal>
+   <FixtureVal ID="17">8,154</FixtureVal>
+   <FixtureVal ID="14">8,154</FixtureVal>
+   <FixtureVal ID="15">8,154</FixtureVal>
+   <FixtureVal ID="13">8,154</FixtureVal>
+  </Function>
+  <Function ID="175" Type="Scene" Name="YUER150W BEAM - GOBO WH - ROTATE COLOR" Path="CABEZAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="20">8,183</FixtureVal>
+   <FixtureVal ID="18">8,183</FixtureVal>
+   <FixtureVal ID="19">8,183</FixtureVal>
+   <FixtureVal ID="16">8,183</FixtureVal>
+   <FixtureVal ID="17">8,183</FixtureVal>
+   <FixtureVal ID="14">8,183</FixtureVal>
+   <FixtureVal ID="15">8,183</FixtureVal>
+   <FixtureVal ID="13">8,183</FixtureVal>
+  </Function>
+  <Function ID="176" Type="Scene" Name="YUER150W BEAM - GOBO WH - REVERSE ROTATE COLOR" Path="CABEZAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="20">8,231</FixtureVal>
+   <FixtureVal ID="18">8,231</FixtureVal>
+   <FixtureVal ID="19">8,231</FixtureVal>
+   <FixtureVal ID="16">8,231</FixtureVal>
+   <FixtureVal ID="17">8,231</FixtureVal>
+   <FixtureVal ID="14">8,231</FixtureVal>
+   <FixtureVal ID="15">8,231</FixtureVal>
+   <FixtureVal ID="13">8,231</FixtureVal>
+  </Function>
+  <Function ID="177" Type="Chaser" Name="Chaser de Macros de Gobo - YUER150W BEAM" Path="CABEZAS">
+   <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">171</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">172</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">173</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">174</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">175</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">176</Step>
+  </Function>
+  <Function ID="178" Type="Scene" Name="UV" Path="COLUMNAS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,0,2,0,3,0,4,0,5,0,6,255</FixtureVal>
+   <FixtureVal ID="22">1,0,2,0,3,0,4,0,5,0,6,255</FixtureVal>
+   <FixtureVal ID="23">1,0,2,0,3,0,4,0,5,0,6,255</FixtureVal>
+   <FixtureVal ID="24">1,0,2,0,3,0,4,0,5,0,6,255</FixtureVal>
+   <FixtureVal ID="25">1,0,2,0,3,0,4,0,5,0,6,255</FixtureVal>
+   <FixtureVal ID="26">1,0,2,0,3,0,4,0,5,0,6,255</FixtureVal>
+   <FixtureVal ID="27">1,0,2,0,3,0,4,0,5,0,6,255</FixtureVal>
+   <FixtureVal ID="28">1,0,2,0,3,0,4,0,5,0,6,255</FixtureVal>
+  </Function>
+  <Monitor DisplayMode="0" ShowLabels="0">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>1</ChannelStyle>
+   <ValueStyle>1</ValueStyle>
+   <Grid Width="5" Height="3" Depth="5" Units="0"/>
+   <FxItem ID="13" XPos="1102.56" YPos="94.0171"/>
+   <FxItem ID="14" XPos="3623.93" YPos="111.111"/>
+   <FxItem ID="15" XPos="4538.46" YPos="1675.21"/>
+   <FxItem ID="16" XPos="3606.84" YPos="1675.21"/>
+   <FxItem ID="17" XPos="2341.88" YPos="1649.57"/>
+   <FxItem ID="18" XPos="2367.52" YPos="119.658"/>
+   <FxItem ID="19" XPos="1478.63" YPos="1649.57"/>
+   <FxItem ID="20" XPos="371.267" YPos="1603.48"/>
+   <FxItem ID="21" XPos="3211.54" YPos="2250"/>
+   <FxItem ID="22" XPos="1423.08" YPos="2288.46"/>
+   <FxItem ID="23" XPos="3211.54" YPos="2903.85"/>
+   <FxItem ID="24" XPos="1423.08" YPos="2961.54"/>
+   <FxItem ID="25" XPos="3238.39" YPos="3904.21"/>
+   <FxItem ID="26" XPos="1471.34" YPos="3842.53"/>
+   <FxItem ID="27" XPos="3230.77" YPos="4673.08"/>
+   <FxItem ID="28" XPos="1451.74" YPos="4676.71"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Frame Caption="COLUMNAS " ID="138">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="115" Y="0" Width="610" Height="655"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Multipage PagesNum="4" CurrentPage="0"/>
+    <Shortcut Page="0" Name="COLUMNAS 1 Y 2"/>
+    <Shortcut Page="1" Name="Página: 2"/>
+    <Shortcut Page="2" Name="Página: 3"/>
+    <Shortcut Page="3" Name="Página: 4"/>
+    <PagesLoop>False</PagesLoop>
+    <SoloFrame Caption="Marco solo de presets" ID="139">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="5" Y="40" Width="320" Height="505"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Mixing>False</Mixing>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="LED Flat Par 7x18W RGBWA+UV - Azul Oscuro - Escena" ID="141" Icon="">
+      <WindowState Visible="True" X="70" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278190208</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="4294967295"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="LED Flat Par 7x18W RGBWA+UV - Azul - Escena" ID="142" Icon="">
+      <WindowState Visible="True" X="130" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278190335</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="107"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="LED Flat Par 7x18W RGBWA+UV - Verde Oscuro - Escena" ID="143" Icon="">
+      <WindowState Visible="True" X="190" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278222848</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="4294967295"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="LED Flat Par 7x18W RGBWA+UV - Cyan Oscuro - Escena" ID="144" Icon="">
+      <WindowState Visible="True" X="10" Y="100" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278222976</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="4294967295"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="LED Flat Par 7x18W RGBWA+UV - Verde - Escena" ID="145" Icon="">
+      <WindowState Visible="True" X="70" Y="100" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278255360</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="110"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="LED Flat Par 7x18W RGBWA+UV - Cyan - Escena" ID="146" Icon="">
+      <WindowState Visible="True" X="130" Y="100" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278255615</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="4294967295"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="LED Flat Par 7x18W RGBWA+UV - Rojo Oscuro - Escena" ID="147" Icon="">
+      <WindowState Visible="True" X="190" Y="100" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4286578688</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="4294967295"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="LED Flat Par 7x18W RGBWA+UV - Magenta Oscuro - Escena" ID="148" Icon="">
+      <WindowState Visible="True" X="10" Y="160" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4286578816</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="4294967295"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="LED Flat Par 7x18W RGBWA+UV - Amarillo Oscuro - Escena" ID="149" Icon="">
+      <WindowState Visible="True" X="70" Y="160" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4286611456</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="4294967295"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="LED Flat Par 7x18W RGBWA+UV - Gris Oscuro - Escena" ID="150" Icon="">
+      <WindowState Visible="True" X="130" Y="160" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4286611584</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="4294967295"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="LED Flat Par 7x18W RGBWA+UV - Gris Claro - Escena" ID="151" Icon="">
+      <WindowState Visible="True" X="190" Y="160" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4290822336</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="4294967295"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="LED Flat Par 7x18W RGBWA+UV - Rojo - Escena" ID="152" Icon="">
+      <WindowState Visible="True" X="10" Y="220" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294901760</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="117"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="LED Flat Par 7x18W RGBWA+UV - Magenta - Escena" ID="153" Icon="">
+      <WindowState Visible="True" X="70" Y="220" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294902015</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="4294967295"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="LED Flat Par 7x18W RGBWA+UV - Amarillo - Escena" ID="154" Icon="">
+      <WindowState Visible="True" X="130" Y="220" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294967040</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="119"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="LED Flat Par 7x18W RGBWA+UV - Blanco - Escena" ID="155" Icon="">
+      <WindowState Visible="True" X="190" Y="220" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294967295</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="120"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="BO COL" ID="140" Icon="">
+      <WindowState Visible="True" X="250" Y="220" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278190080</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="105"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Slider Caption="MASTER DIM" ID="222" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="True" X="250" Y="40" Width="50" Height="170"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="242">
+       <Channel Fixture="27">0</Channel>
+       <Channel Fixture="28">0</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <Button Caption="AZUL" ID="223" Icon="">
+      <WindowState Visible="True" X="10" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278190208</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="107"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+    </SoloFrame>
+    <CueList Caption="Chaser de 16 Colores" ID="156">
+     <WindowState Visible="True" X="10" Y="320" Width="295" Height="215"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Chaser>121</Chaser>
+     <NextPrevBehavior>0</NextPrevBehavior>
+     <Next/>
+     <Previous/>
+     <Playback/>
+     <Stop/>
+    </CueList>
+   </Frame>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>

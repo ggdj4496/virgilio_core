@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org">
+ <Creator><Name>ARIA ZBRAIN</Name><Version>1.0</Version><Author>ARIA_OPERATOR</Author></Creator>
+ <Manufacturer>ZBRAIN_PRO</Manufacturer>
+ <Model>ZB_SPYDER_INF_PRO</Model>
+ <Type>Moving Head</Type>
+ <Channel Name="Tilt 1" Preset="PositionTilt""")/>>
+ <Channel Name="Tilt 2" Preset="PositionTilt""")/>>
+ <Channel Name="Infinite Rotation" Preset="SpeedPanTiltFastSlow""")/>>
+ <Mode Name="Standard">
+  <Channel Number="0">Tilt 1</Channel>
+  <Channel Number="1">Tilt 2</Channel>
+  <Channel Number="2">Infinite Rotation</Channel>
+ </Mode>
+</FixtureDefinition>

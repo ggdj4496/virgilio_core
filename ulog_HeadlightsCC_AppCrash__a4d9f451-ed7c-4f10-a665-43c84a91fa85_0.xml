@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<UsageDoc version="0.5.6">
+<StartSession id="a4d9f451-ed7c-4f10-a665-43c84a91fa85" time="2026-02-11T06:37:23Z" seq="0" />
+<NewGroup category="Headlights" subcategory="Crash" name="Session" time="2026-02-11T06:37:23Z" group="0" doc="NOVALUE" seq="1" />
+<DataRec time="2026-02-11T06:37:23Z" group="0" name="ProductFamily" data="HeadlightsCC" seq="2" />
+<DataRec time="2026-02-11T06:37:23Z" group="0" name="ProductName" data="AppCrash" seq="3" />
+<NewGroup category="AppExit" subcategory="Crash" name="ExitInfo" time="2026-02-11T06:37:23Z" group="1" doc="NOVALUE" seq="4" />
+<DataRec time="2026-02-11T06:37:23Z" group="1" name="ExitType" data="Crash" seq="5" />
+<DataRec time="2026-02-11T06:37:23Z" group="1" name="CrashProductName" data="NOVALUE" seq="6" />
+<DataRec time="2026-02-11T06:37:23Z" group="1" name="CrashProductFamily" data="NOVALUE" seq="7" />
+<DataRec time="2026-02-11T06:37:23Z" group="1" name="MachineID" data="421ff58e-b424-416d-bee8-d6d7a756b05e" seq="8" />
+<EndSession id="a4d9f451-ed7c-4f10-a665-43c84a91fa85" time="2026-02-11T06:37:23Z" seq="9" />
+</UsageDoc>

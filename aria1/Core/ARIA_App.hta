@@ -1,0 +1,35 @@
+﻿<html>
+<head>
+    <title>ARIA - SuperAgent Interface</title>
+    <hta:application id="ariaApp" border="thin" caption="yes" showintaskbar="yes" singleinstance="yes" sysmenu="yes" windowstate="normal">
+    <style>
+        body { background-color: #0d1117; color: #58a6ff; font-family: 'Segoe UI', Consolas, monospace; margin: 20px; }
+        #console { background: #000; border: 1px solid #30363d; height: 300px; padding: 10px; overflow-y: scroll; color: #00ff00; font-size: 12px; margin-bottom: 10px; box-shadow: 0 0 10px #00ff0033; }
+        .input-area { display: flex; gap: 10px; }
+        input { background: #161b22; border: 1px solid #30363d; color: white; padding: 8px; flex-grow: 1; outline: none; }
+        button { background: #238636; border: none; color: white; padding: 8px 15px; cursor: pointer; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <div style="color:#8b949e; margin-bottom:5px;">SISTEMA ARIA: <span style="color:#238636">ONLINE</span></div>
+    <div id="console">--- INTERFAZ DE PENSAMIENTO ACTIVADA ---<br></div>
+    <div class="input-area"><input type="text" id="cmdInput"><button onclick="sendCommand()">EJECUTAR</button></div>
+    <script language="vbs">
+        Sub Log(text)
+            document.getElementById("console").innerHTML = document.getElementById("console").innerHTML & "[" & Time & "] " & text & "<br>"
+        End Sub
+        Sub sendCommand()
+            Dim cmd, fso, f
+            cmd = document.getElementById("cmdInput").value
+            If cmd <> "" Then
+                Log "PROCESANDO: " & cmd
+                Set fso = CreateObject("Scripting.FileSystemObject")
+                Set f = fso.OpenTextFile("C:\Zbrain\Core\bridge_cmd.txt", 2, True)
+                f.WriteLine(cmd)
+                f.Close
+                document.getElementById("cmdInput").value = ""
+            End If
+        End Sub
+    </script>
+</body>
+</html>

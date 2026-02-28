@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.14.3</Version>
+  <Author>X</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <BeatGenerator BeatType="Disabled" BPM="0"/>
+   <Universe Name="Universe 1" ID="0">
+    <Input Plugin="MIDI" UID="None" Line="0"/>
+    <Output Plugin="DMX USB" UID="None" Line="1"/>
+   </Universe>
+   <Universe Name="Universe 2" ID="1"/>
+   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="Universe 4" ID="3">
+    <Output Plugin="DMX USB" UID="None" Line="0"/>
+   </Universe>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>GGDJ</Manufacturer>
+   <Model>GGDJ NANDO BEAMS 7R</Model>
+   <Mode>16-channel</Mode>
+   <ID>0</ID>
+   <Name>GGDJ NANDO BEAMS 7R #1</Name>
+   <Universe>3</Universe>
+   <Address>9</Address>
+   <Channels>16</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GGDJ</Manufacturer>
+   <Model>GGDJ NANDO BEAMS 7R</Model>
+   <Mode>16-channel</Mode>
+   <ID>1</ID>
+   <Name>GGDJ NANDO BEAMS 7R #2</Name>
+   <Universe>3</Universe>
+   <Address>25</Address>
+   <Channels>16</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GGDJ</Manufacturer>
+   <Model>GGDJ NANDO BEAMS 7R</Model>
+   <Mode>16-channel</Mode>
+   <ID>2</ID>
+   <Name>GGDJ NANDO BEAMS 7R #3</Name>
+   <Universe>3</Universe>
+   <Address>41</Address>
+   <Channels>16</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GGDJ</Manufacturer>
+   <Model>GGDJ NANDO BEAMS 7R</Model>
+   <Mode>16-channel</Mode>
+   <ID>3</ID>
+   <Name>GGDJ NANDO BEAMS 7R #4</Name>
+   <Universe>3</Universe>
+   <Address>57</Address>
+   <Channels>16</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GGDJ</Manufacturer>
+   <Model>GGDJ NANDO BEAMS 7R</Model>
+   <Mode>16-channel</Mode>
+   <ID>4</ID>
+   <Name>GGDJ NANDO BEAMS 7R #5</Name>
+   <Universe>3</Universe>
+   <Address>73</Address>
+   <Channels>16</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GGDJ</Manufacturer>
+   <Model>GGDJ NANDO BEAMS 7R</Model>
+   <Mode>16-channel</Mode>
+   <ID>5</ID>
+   <Name>GGDJ NANDO BEAMS 7R #6</Name>
+   <Universe>3</Universe>
+   <Address>89</Address>
+   <Channels>16</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GGDJ</Manufacturer>
+   <Model>GGDJ NANDO BEAMS 7R</Model>
+   <Mode>16-channel</Mode>
+   <ID>6</ID>
+   <Name>GGDJ NANDO BEAMS 7R #7</Name>
+   <Universe>3</Universe>
+   <Address>105</Address>
+   <Channels>16</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GGDJ</Manufacturer>
+   <Model>GGDJ NANDO BEAMS 7R</Model>
+   <Mode>16-channel</Mode>
+   <ID>7</ID>
+   <Name>GGDJ NANDO BEAMS 7R #8</Name>
+   <Universe>3</Universe>
+   <Address>121</Address>
+   <Channels>16</Channels>
+  </Fixture>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <SoloFrame Caption="GGDJ" ID="2">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4278590720</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="15" Y="30" Width="1045" Height="395"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+   </SoloFrame>
+   <Frame Caption="MASTER GGDJ" ID="1">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4278197030</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="555" Y="410" Width="485" Height="340"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>True</Disabled>
+    <Multipage PagesNum="1" CurrentPage="0"/>
+    <Shortcut Page="0" Name="M LIVE"/>
+    <PagesLoop>True</PagesLoop>
+   </Frame>
+   <Frame Caption="MASTER GGDJ" ID="0">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4280680464</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="15" Y="420" Width="500" Height="290"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>True</Disabled>
+    <Multipage PagesNum="1" CurrentPage="0"/>
+    <Shortcut Page="0" Name="M PROG"/>
+    <PagesLoop>True</PagesLoop>
+   </Frame>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <GrandMaster Visible="1" ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
