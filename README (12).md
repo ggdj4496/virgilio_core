@@ -1,2 +1,0 @@
-# zbrain
-zbrain core agent

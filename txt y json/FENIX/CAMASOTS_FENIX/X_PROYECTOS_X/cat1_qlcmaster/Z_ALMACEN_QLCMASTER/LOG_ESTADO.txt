@@ -1,6 +1,0 @@
-﻿PROYECTO: PR01_QLC_Control
-RECURSOS DETECTADOS:
-- bahiamar.qxw: Base operativa de club.
-- GGDJ-NANDO-BEAMS-230.qxw: Perfil de potencia de beams.
-- Spider 8L: En fase de mapeo de canales.
-ESTADO: Sincronizado con Camasots local.
